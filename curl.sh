@@ -1,5 +1,7 @@
 #!/bin/bash
 
+gcc getHtmlTitle.cpp -o getHtmlTitle
+
 echo "# ONE · 一个的问题索引  " > readme.md
 
 for ((i=8; i<1414; ++i))  
