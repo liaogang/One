@@ -20,7 +20,7 @@ do
 		curl -O http://wufazhuce.com/question/$i
 	fi
 
-	title=`./getHtmlTitle $i`
+	title=`./get_html_title $i`
 	echo $title
 	echo "1. [$title](http://wufazhuce.com/question/$i)  ">>readme.md
 
